@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Flexible Pedometer</string>
+
+    <!-- For Service -->
+    <string name="today_distance">Сьогоднішня відстань</string>
+
+    <!-- For Navigation Drawer -->
+    <string name="drawer_item_home">Додому</string>
+    <string name="drawer_item_timer">Таймер</string>
+    <string name="drawer_item_history">Історія</string>
+    <string name="drawer_item_delete">Видалити історію</string>
+    <string name="drawer_item_settings">Налаштування</string>
+    <string name="drawer_item_exit">Вихід</string>
+
+    <!-- For Home Fragment -->
+    <string name="STOP">СТОП</string>
+    <string name="START">СТАРТ</string>
+    <string name="time">Час</string>
+    <string name="speed">Швидкість</string>
+    <string name="steps">кроків</string>
+
+    <!-- For Timer Fragment -->
+    <string name="Steps">Кроки</string>
+    <string name="START_TIMER">СТАРТ</string>
+    <string name="START_RESET_TIMER">СТАРТ / СБРОС</string>
+    <string name="STOP_TIMER">СТОП</string>
+
+    <!-- For History Fragment -->
+    <string name="DayTitle">ДЕНЬ</string>
+    <string name="WeekTitle">НЕДІЛЯ</string>
+    <string name="MonthTitle">МІСЯЦЬ</string>
+    <string name="History_Meters">Метри:</string>
+    <string name="History_Steps">Кроки:</string>
+    <string name="History_Time">Час:</string>
+    <string name="History_Speed">Швидк:</string>
+    <string name="History_Meters_Abbreviation">м</string>
+    <string name="History_Speed_Abbreviation">км/ч</string>
+
+    <!-- For Settings Fragment -->
+    <string name="PedometerSettings">Налаштування шагомера</string>
+    <string name="Sensitivity">Чутливість</string>
+    <string name="SensitivityBody">Змініть, якщо кількість кроків рахується невірно</string>
+    <string name="SensitivityFullBody">Змініть, якщо кількість кроків рахується невірно\r\n
+            (Більшість пристроїв не потребують корегування)\r\n - Зменшіть чутливість, якщо кроки
+        не зараховуються\r\n - Збільште чутливість, якщо поїздка на транспорті зараховується як кроки</string>
+    <string name="StepWidth">Ширина кроку</string>
+    <string name="StepWidthBody">Використовується для розрахунку відстані та швидкості</string>
+    <string name="UserSettings">Налаштування користувача</string>
+    <string name="NumberStepsPerDay">Кількість метрів в день</string>
+    <string name="NumberStepsPerDayBody">Вкажіть, скільки метрів в день ви хочете проходити</string>
+
+    <!-- For Store Preference -->
+    <string name="SensitivityPreference">SENSITIVITY</string>
+    <string name="StepWidthPreference">STEP_WIDTH</string>
+    <string name="StepsPerDayPreference">STEPS_PER_DAY</string>
+
+    <!-- For Removing History -->
+    <string name="RemoveHistoryTitle">Видалення історії</string>
+    <string name="RemoveHistoryBody">Ви впевнені, що хочете видалити історію?</string>
+    <string name="dialogOkButton">ТАК</string>
+    <string name="dialogCancelButton">НІ</string>
+
+    <!-- For Toolbar Title -->
+    <string name="HomeTitle">ШАГОМЕР</string>
+    <string name="TimerTitle">ТАЙМЕР</string>
+    <string name="HistoryTitle">ІСТОРІЯ</string>
+    <string name="SettingsTitle">НАЛАШТУВАННЯ</string>
+
+    <!-- For SharedPreferences -->
+    <string name="SharedPreferences_MainKey">SharedPreferencesMainKey</string>
+</resources>

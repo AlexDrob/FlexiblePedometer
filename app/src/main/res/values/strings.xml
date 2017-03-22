@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Flexible Pedometer</string>
+
+    <!-- For Service -->
+    <string name="today_distance">Today\'s distance</string>
+
+    <!-- For Navigation Drawer -->
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_timer">Timer</string>
+    <string name="drawer_item_history">History</string>
+    <string name="drawer_item_delete">Delete history</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_exit">Exit</string>
+
+    <!-- For Home Fragment -->
+    <string name="STOP">STOP</string>
+    <string name="START">START</string>
+    <string name="time">Time</string>
+    <string name="speed">Speed</string>
+    <string name="steps">steps</string>
+
+    <!-- For Timer Fragment -->
+    <string name="Steps">Steps</string>
+    <string name="START_TIMER">START</string>
+    <string name="START_RESET_TIMER">START / RESET</string>
+    <string name="STOP_TIMER">STOP</string>
+
+    <!-- For History Fragment -->
+    <string name="DayTitle">DAY</string>
+    <string name="WeekTitle">WEEK</string>
+    <string name="MonthTitle">MONTH</string>
+    <string name="History_Meters">Meter:</string>
+    <string name="History_Steps">Steps:</string>
+    <string name="History_Time">Time:</string>
+    <string name="History_Speed">Speed:</string>
+    <string name="History_Meters_Abbreviation">m</string>
+    <string name="History_Speed_Abbreviation">km/h</string>
+
+    <!-- For Settings Fragment -->
+    <string name="PedometerSettings">Pedometer settings</string>
+    <string name="Sensitivity">Sensitivity</string>
+    <string name="SensitivityBody">Change, if the number of steps is considered to be wrong</string>
+    <string name="SensitivityFullBody">Change, if the number of steps is considered to be wrong\r\n
+            (most devices do not require adjustment)\r\n - Reduce sensitivity if steps are not
+            counted\r\n - Increase the sensitivity if the trip in transport is counted as steps</string>
+    <string name="StepWidth">Step width</string>
+    <string name="StepWidthBody">Used for calculating the distance and speed</string>
+    <string name="UserSettings">User settings</string>
+    <string name="NumberStepsPerDay">Number meters per day</string>
+    <string name="NumberStepsPerDayBody">Specify how many meters per day you want to pass</string>
+
+    <!-- For Store Preference -->
+    <string name="SensitivityPreference">SENSITIVITY</string>
+    <string name="StepWidthPreference">STEP_WIDTH</string>
+    <string name="StepsPerDayPreference">STEPS_PER_DAY</string>
+
+    <!-- For Removing History -->
+    <string name="RemoveHistoryTitle">Remove history</string>
+    <string name="RemoveHistoryBody">Are you sure you want to delete the history?</string>
+    <string name="dialogOkButton">YES</string>
+    <string name="dialogCancelButton">NO</string>
+
+    <!-- For Toolbar Title -->
+    <string name="HomeTitle">HOME</string>
+    <string name="TimerTitle">TIMER</string>
+    <string name="HistoryTitle">HISTORY</string>
+    <string name="SettingsTitle">SETTINGS</string>
+
+    <!-- For SharedPreferences -->
+    <string name="SharedPreferences_MainKey">SharedPreferencesMainKey</string>
+</resources>

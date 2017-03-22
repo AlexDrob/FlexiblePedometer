@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/left_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.15"
+            android:layout_marginLeft="10dp"
+            android:background="@color/grey_light"
+            android:src="@mipmap/left_pointer"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:text="50.0"
+            android:textSize="25dp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.15"
+            android:layout_marginRight="10dp"
+            android:background="@color/grey_light"
+            android:src="@mipmap/right_pointer"/>
+    </LinearLayout>
+
+
+    <TableLayout
+        android:id="@+id/table_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/linear_layout">
+
+        <TableRow
+            android:id="@+id/table_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/history_meters"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rectangle_history"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Meter: 0 m"/>
+
+            <TextView
+                android:id="@+id/history_steps"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rectangle_history"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Steps: 0"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/history_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rectangle_history"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Time: 00:00:00"/>
+
+            <TextView
+                android:id="@+id/history_speed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/rectangle_history"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:text="Speed: 0 km/h"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/whole_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/table_layout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
